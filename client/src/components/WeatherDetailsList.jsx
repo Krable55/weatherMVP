@@ -1,5 +1,5 @@
 import React from "react";
-import WeatherListItem from "./WeatherListItem.jsx";
+// import WeatherListItem from "./WeatherListItem.jsx";
 import ReactTable from "react-table";
 import "react-table/react-table.css";
 import { celsiusToFahrenheit } from "../utils/tempConversion.js";
