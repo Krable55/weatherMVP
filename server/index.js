@@ -26,7 +26,7 @@ app.get('/search', function (req, res) {
       // console.log(data.the_temp, 'temp in cel')
       // res.send(status, body): Use res.status(status).send(body)
     })
-  console.log('we getting this?', req.body.userInput)
+  // console.log('we getting this?', req.body.userInput)
 })
 
 app.get('/forecast/:woeid', function (req, res) {
